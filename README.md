@@ -1,5 +1,4 @@
-Ford Mustang Car Showcase Website ![f_transparent_Craiyon](https://github.com/user-attachments/assets/8cdf4bcc-3b39-4b71-b200-c87c17afba25)
-
+Ford Mustang Car Showcase Website
 
 
 A sleek and visually engaging website showcasing the iconic Ford Mustang, built with HTML, CSS, and JavaScript. 
