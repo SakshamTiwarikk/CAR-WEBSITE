@@ -1,0 +1,27 @@
+.background {
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+    animation: fadeIn 500ms ease-in-out;
+}
+
+.backgroundvideo {
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: -1;
+    animation: fadeIn 500ms ease-in-out;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

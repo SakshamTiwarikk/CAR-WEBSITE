@@ -1,0 +1,70 @@
+.hero {
+    margin: 0 auto;
+    margin-top: 270px;
+    max-width: 1200px; /* Center align and limit width for large screens */
+    padding: 0 20px; /* Padding to keep content from touching screen edges */
+}
+
+.hero-text {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.hero-explore {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: fit-content;
+    margin: 70px auto 0;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.hero-explore p {
+    color: #292929;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.hero-controls {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero-dots {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    list-style: none;
+}
+
+.hero-dot {
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.hero-dot.orange {
+    background: orangered;
+}
+
+.hero-play-button {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.hero-play-button p {
+    color: #fff;
+    font-size: 19px;
+}

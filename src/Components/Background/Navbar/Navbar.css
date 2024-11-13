@@ -1,0 +1,29 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 120px;
+    color: white;
+    position: sticky;
+    top: 0; /* Sticks the navbar to the top of the viewport */
+    z-index: 1000;
+    padding: 20px 120px;
+}
+.nav-logo{
+    font-family: Outfit;
+    font-weight: 500;
+    font-size: 42px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-size: 18px;
+    gap: 90px;
+}
+.nav-contact{
+    border-radius: 10px;
+    padding: 10px 36px;
+    background: #fff;
+    color: #262626;
+}
